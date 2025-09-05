@@ -1,0 +1,13 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+        <title>Test page</title>
+    </head>
+    <body>
+        <h1>Heading one</h1>
+        <p>Hey this is a <a href="https://google.com/">cool item</a></p>
+        <p><strong>Fishes</strong> <em>here</em></p>
+        <img src="./peixe.jpg">
+        <img src="https://cdn.britannica.com/34/240534-050-B8C4B11E/Porcupine-fish-Diodon-hystox.jpg">
+    </body>
+</html>
