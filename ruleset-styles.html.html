@@ -5,23 +5,34 @@
         <style>
             h1, h2, h3, h4 {
                 color: royalblue;
-                background-color: lightgreen;
                 font-size: 30px;
 
             }
             h1 {
                 color: teal;}
+        .important {
+            color: brown;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+            background-color: darkkhaki !important;
+        }
+
+        #the-one {
+            color: aquamarine;
+        }
 
         </style>
     </head>
     <body>
-       <h1> heading <span style="color: aquamarine;">1</span> </h1>
-        <h2>heading 2</h2>
+       <h1> heading <span id="the-one">1</span> </h1>
+        <h2 class="important"> heading 2</h2>
         <h3>heading 3</h3>
         <h4>heading 4</h4>
-        <h1>heading 1</h1>
-        <h2>heading 2</h2>
-        <h3>heading 3</h3>
-        <h4>heading 4</h4>
+        <h1 class="uppercase">heading 1</h1>
+        <h2 class="important uppercase">heading 2</h2>
+        <h3 class="uppercase">heading 3</h3>
+        <h4 class="important uppercase">heading 4</h4>
     </body>
 </html>
