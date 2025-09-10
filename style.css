@@ -1,0 +1,19 @@
+h1, h2, h3, h4 {
+                color: royalblue;
+                font-size: 30px;
+
+            }
+            h1 {
+                color: teal;}
+        .important {
+            color: brown;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+            background-color: darkkhaki !important;
+        }
+
+        #the-one {
+            color: aquamarine;
+        }
